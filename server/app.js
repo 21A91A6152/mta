@@ -2,9 +2,9 @@ import express from 'express';
 import mongoose from "mongoose";
 import bodyParser from 'body-parser';
 import cors from 'cors'
-import mdata from './models/students'
+import mdata from './models/students.js'
 import nodemailer from 'nodemailer';
-import movie from './models/movie';
+import movie from './models/movie.js';
 
  
 var app = express();  
