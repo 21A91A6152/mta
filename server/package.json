@@ -1,0 +1,26 @@
+{
+  "name": "moviebackend",
+  "version": "1.0.0",
+  "description": "moviebackend",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon --experimental-modules --es-module-specifier-resolution=node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"npm i"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@netlify/functions": "^2.8.0",
+    "@types/express": "^4.17.21",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mongoose": "^7.6.3",
+    "netlify-lambda": "^2.0.16",
+    "nodemailer": "^6.9.6",
+    "nodemon": "^3.0.1",
+    "serverless-http": "^3.2.0"
+  }
+}
